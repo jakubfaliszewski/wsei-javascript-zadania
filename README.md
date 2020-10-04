@@ -11,3 +11,7 @@
     Tylko w takiej postaci będzie przyjmowane zaliczenie. Jeśli nie będzie się zgadzać treść nie będzie zaliczenia.
 
 3. Termin oddania zaliczenia to godzina 23.59 dnia 2021-02-07. Po tej dacie zaliczenia nie będą przyjmowane.
+
+
+## Notatki
+- pominięto zadanie 9.3
