@@ -15,3 +15,5 @@
 
 ## Notatki
 - pominięto zadanie 9.3
+- pominięto zadanie 10.4
+- pominięto zadanie 13.5

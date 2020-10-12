@@ -101,4 +101,3 @@ console.log(calc2.getHistory());
 
 // Zadanie 3:
 
-
