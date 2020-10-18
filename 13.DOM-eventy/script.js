@@ -53,6 +53,17 @@ document.getElementById('input-test').addEventListener('input', (e) => {
 });
 
 // Zadanie 5
+const counterBtn = document.getElementById('ex5-button');
+const counterContainer = document.getElementById('ex5');
+let counter = 0;
+function counterAction () {
+    counter++;
+    counterContainer.innerText = counter;
+    if(counter >= 10) {
+        counterBtn.removeEventListener('click', counterAction);
+    }
+}
+counterBtn.addEventListener('click', counterAction);
 
 // Zadanie 6
 document.addEventListener('scroll', (e) => {

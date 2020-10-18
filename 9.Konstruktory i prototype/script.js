@@ -100,4 +100,26 @@ calc2.multiply();
 console.log(calc2.getHistory());
 
 // Zadanie 3:
+function RandNum() {
+	this.changeNumber = () => {
+		RandNum.prototype.interval = setInterval(() => {
+			RandNum.prototype.num = Math.round(Math.random() * 10);
+			console.log(RandNum.prototype.num);
+		}, 1000);
+	};
+	this.isMoreThan5 = () => {
+		RandNum.prototype.check = setInterval(() => {
+			if (RandNum.prototype.num > 5) {
+        console.log("Większa niż 5, koniec");
+				clearInterval(RandNum.prototype.interval);
+				clearInterval(RandNum.prototype.check);
+			}
+		}, 1000);
+	};
+}
+const randNumChange = new RandNum();
+const randNumCheck = new RandNum();
+randNumChange.changeNumber();
+randNumCheck.isMoreThan5();
+
 
