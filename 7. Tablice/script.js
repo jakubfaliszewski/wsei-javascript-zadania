@@ -15,15 +15,15 @@ arr.forEach((v) => {
 
 arr.filter((v, i) => i % 2 === 0).forEach((v) => {
     console.log(v);
-});;
+});
 
 arr.filter((v) => typeof (v) === 'string').forEach((v) => {
     console.log(v);
-});;
+});
 
 arr.filter((v, i) => typeof (v) === 'number').forEach((v) => {
     console.log(v);
-});;
+});
 
 // Zadanie 3:
 
