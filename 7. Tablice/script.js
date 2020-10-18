@@ -39,6 +39,11 @@ arr.filter((v, i) => v % 2 !== 0).forEach((v) => {
 });
 console.log(Math.max(...arr));
 console.log(Math.min(...arr));
+const arrLength = arr.length - 1;
+arr.forEach((v, i) => {
+  console.log(arr[arrLength - i]);
+});
+
 
 // Zadanie 4:
 function sumAndPrint(arr) {
