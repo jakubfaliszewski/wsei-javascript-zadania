@@ -37,8 +37,20 @@ arr.filter((v, i) => v % 2 === 0).forEach((v) => {
 arr.filter((v, i) => v % 2 !== 0).forEach((v) => {
     console.log(v);
 });
-console.log(Math.max(...arr));
-console.log(Math.min(...arr));
+let biggest = 0;
+arr.forEach(v => {
+    if (v > biggest) {
+        biggest = v;
+    }
+});
+console.log(biggest);
+let smallest = 0;
+arr.forEach(v => {
+    if (v < smallest) {
+        smallest = v;
+    }
+});
+console.log(smallest);
 const arrLength = arr.length - 1;
 arr.forEach((v, i) => {
   console.log(arr[arrLength - i]);
